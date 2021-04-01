@@ -50,15 +50,19 @@ function atomsTracker() {
             if (distance < mouse.radius + this.size) {
                 if (mouse.x < this.x && this.x < canvas.width - this.size * 5) {
                     this.x += 5;
+                    this.size += 0.1;
                 }
                 if (mouse.x > this.x && this.x > this.size * 5) {
                     this.x -= 5;
+                    this.size += 0.1;
                 }
                 if (mouse.y < this.y && this.y < canvas.height - this.size * 5) {
                     this.y += 5;
+                    this.size += 0.1;
                 }
                 if (mouse.y > this.y && this.y > this.size * 5) {
                     this.y -= 5;
+                    this.size += 0.1;
                 }
             }
             this.x += this.directionX;
