@@ -5,7 +5,7 @@
 body {
     height: 100%;
     width: 100%;
-    background-color: rgb(0, 58, 92);
+    background-color: rgb(1, 37, 58);
 }
 
 .container{
@@ -63,9 +63,9 @@ body {
     color: white;
 }
 
-/* 
-#icon:active {
-    background-color: yellowgreen;
+/*  
+#icon:hover {
+    background-color: aliceblue;
 } */
 
 #atoms{
